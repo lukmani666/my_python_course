@@ -43,3 +43,6 @@ git merge new-branch-name
 Unstage a file:
 git reset HEAD filename
 
+
+Thanks
+
