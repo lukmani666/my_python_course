@@ -1,0 +1,33 @@
+A class is a blueprint for creating objects. It defines the properties (attributes) and behaviors (methods)
+that the objects created from the class will have.
+
+Object:
+
+An object is an instance of a class. When a class is defined, no memory is allocated until an object of that class is instantiated.
+Objects can access attributes and methods defined in their class.
+Instance:
+
+An instance refers to a specific object created from a class. Each instance can have different attribute values.
+Attribute:
+
+Attributes are the data or properties associated with a class. They hold the state or characteristics of an object. Attributes are typically defined in the __init__ method (constructor).
+Method:
+
+A method is a function defined inside a class that operates on the attributes of the class. Methods are used to define the behaviors of an object.
+
+
+
+The rain in Spain stays mainly in the plain.
+
+
+re.match(pattern, string): Checks for a match only at the beginning of the string.
+re.search(pattern, string): Searches the string for a match anywhere.
+re.findall(pattern, string): Returns all matches as a list.
+re.sub(pattern, repl, string): Replaces occurrences of a pattern with a specified string.
+re.split(pattern, string): Splits the string by the occurrences of the pattern.
+
+
+json.dumps(obj): Converts a Python object into a JSON string.
+json.loads(json_string): Converts a JSON string back into a Python object.
+json.dump(obj, file): Writes a Python object as a JSON string to a file.
+json.load(file): Reads a JSON string from a file and converts it to a Python object.

@@ -1,0 +1,29 @@
+1. Creating a Class
+    Using the class keyword, create a Python class called Phone.
+
+    Add attributes like brand, model, storage, and color.
+    Add a method called make_call() that prints "Calling from [phone brand] [phone model]..."
+
+    Instantiating an Object
+    Create an instance of the Phone class and set the attributes with values of your choice (e.g., "Apple", "iPhone 13", "256GB", "black").
+
+    Accessing Attributes and Methods
+    Print out the values of the object's attributes and call the make_call() method on the object.
+
+
+2.  Modeling Real-World Objects with OOP
+    1. Create a Class for a Real-World Object
+        Choose a real-world object (e.g., a Book, Person, or BankAccount) and model it using OOP principles.
+
+        Define at least three attributes.
+        Define at least two methods.
+
+    2. Demonstrate Encapsulation
+        Ensure that some of the attributes are private by prefixing them with a double underscore (e.g., __balance in a BankAccount class). Create getter and setter methods to access and modify the private attributes.
+
+    3. Demonstrate Inheritance
+        Extend the class you created in the previous step by creating a subclass. For example, if you modeled a Person, you can create a subclass called Student. Show how the subclass inherits attributes and methods from the parent class and adds new ones.
+
+    4. Demonstrate Polymorphism
+        Override a method in the subclass to show polymorphism. For instance, if the parent class Person has a method introduce(), you can override it in the Student subclass to provide a custom implementation.
+
